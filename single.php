@@ -16,7 +16,6 @@ get_header(); ?>
 			<?php comments_template(); ?>
 		<?php endwhile; ?>
 	</div>
-	
 	<?php get_sidebar(); ?>
 
 	<div id="navigation" class="container">

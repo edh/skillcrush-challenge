@@ -32,7 +32,8 @@ function skillcrushstarter_setup() {
 	add_theme_support('post-thumbnails');
 
 	// Register Menus 
-	register_nav_menus ( array (
+	register_nav_menus 	
+	( array (
 		'primary-menu' => __( 'Primary Menu', 'skillcrushstarter' ),
 		'secondary' => __( 'Secondary Menu', 'skillcrushstarter' ),  
 	) );
@@ -68,3 +69,9 @@ function skillcrush_comments($comment, $args, $depth) {
  
 	echo $comment;
 }
+
+// changes excerpt symbol
+function custom_excerpt_more($more) {
+	return '...';
+}
+add_filter('excerpt_more', 'custom_excerpt_more');
