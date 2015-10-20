@@ -220,6 +220,18 @@ body {
 }
 #sidebar .widget {
 	padding: 28px 31px;
+	
+}
+#sidebar .widget h2 {
+	font: 600 14px 'Open Sans';
+	color: #45ac9d;
+	margin-bottom: 20px;
+}
+#sidebar .widget ul li,
+#sidebar .widget ul li {
+	font: 600 14px 'Open Sans';
+	color: #3b3b3b;
+	margin-bottom: 15px;
 }
 #sidebar .widget_text {
 	border-bottom: 1px solid #BFBFBF;
